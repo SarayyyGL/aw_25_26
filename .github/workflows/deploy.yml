@@ -18,6 +18,6 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./
-          server-dir: /home/www/
+          server-dir: /slarag.atwebpages.com/
           port: 21
           protocol: ftp
